@@ -15,7 +15,7 @@ function App() {
         {/* Wrap all your routes in the Routes component */}
         <Routes>
           {/* Define the default route for the home page */}
-          <Route path="/" element={<Hero />} />
+          <Route path="" element={<Hero />} />
 
           {/* Define additional routes for other pages */}
           <Route path="/aboutme" element={<AboutMe />} />
