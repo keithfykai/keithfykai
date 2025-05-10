@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 export function Hero() {
     return (
-        <div className="relative isolate px-6 lg:px-8">
+        <div className="relative isolate px-6 lg:px-8 pt-8">
             <div className="mx-auto max-w-2xl text-center">
-                <img className="rounded-xl mx-auto h-130" src={mainphoto}/>
+                <img className="rounded-xl mx-auto w-80 sm:w-80 md:w-100 lg:w-120 xl:w-140 h-auto max-w-full" src={mainphoto}/>
                 <p className="p-5">📍 Svalbard, Longyearbyen (78.2253° N, 15.6256° E)</p>
                 <div className="pt-5 text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
                     Welcome, I'm Keith
