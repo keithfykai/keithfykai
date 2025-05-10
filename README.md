@@ -12,14 +12,26 @@ Welcome to my GitHub! I'm a penultimate-year Computer Science student at **Nanya
 ## 💻 Tech Stack
 
 **Languages & Frameworks:**
-- JavaScript / Python / Swift / SQL
-- React.js / React Native / Node.js / Express.js / HTML / CSS
-- Tailwind CSS / Firebase / REST APIs
+- ![JavaScript](https://img.shields.io/badge/JavaScript-ED8B00?style=flat-square&logo=javascript&logoColor=white)
+- ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+- ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
+- ![SQL](https://img.shields.io/badge/SQL-003B57?style=flat-square&logo=postgresql&logoColor=white)
+- ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+- ![React Native](https://img.shields.io/badge/React%20Native-61DAFB?style=flat-square&logo=react&logoColor=black)
+- ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+- ![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
+- ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white)
+- ![Firebase](https://img.shields.io/badge/Firebase-FFCB2B?style=flat-square&logo=firebase&logoColor=black)
 
 **Tools & Platforms:**
-- Git / GitHub / Figma / Jupyter Notebook
-- AWS (EC2, CloudWatch) / Firebase / Xcode / Unity
-- Visual Studio Code / Postman
+- ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+- ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+- ![Figma](https://img.shields.io/badge/Figma-000000?style=flat-square&logo=figma&logoColor=white)
+- ![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)
+- ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+- ![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=flat-square&logo=xcode&logoColor=white)
+- ![Unity](https://img.shields.io/badge/Unity-000000?style=flat-square&logo=unity&logoColor=white)
+- ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 
 ## 🚀 Projects
 
@@ -45,4 +57,4 @@ Designing a smarter way to find and understand code across large codebases using
 
 ---
 
-Thanks for stopping by! 😊  
+Thanks for stopping by! 😊
