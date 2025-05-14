@@ -3,7 +3,7 @@ export function AboutMe() {
         <div className="max-w-4xl mx-auto px-6 pt-5">
             <h1 className="text-4xl font-extrabold text-gray-800 text-center mb-8">About Me</h1>
 
-            <p className="text-lg text-gray-700 mb-6">
+            <p className="text-xl text-gray-700 mb-6">
                 Hello! I'm Keith, currently a penultimate Computer Science student 🤓 studying at 
                 Nanyang Technological University in Singapore 🇸🇬. I am passionate about many areas of tech, including mainly
                 (but not limited to:) Full Stack Web Development 🥞 and Cloud Computing/Technologies ☁️.
