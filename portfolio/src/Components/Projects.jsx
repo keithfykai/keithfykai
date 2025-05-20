@@ -7,7 +7,7 @@ export function Projects() {
         {/* TravelLog */}
         <div>
           <h2 className="text-2xl font-semibold text-indigo-700 mb-2">
-            <a href="https://travellog--i37vg7lzsi.expo.app">TravelLog Mobile Application</a>
+            <a href="https://travel-log--xqwlt2zf11.expo.app">TravelLog Mobile Application</a>
           </h2>
           <p className="italic text-sm text-gray-500 mb-1">Team Lead / Full Stack Developer</p>
           <ul className="list-disc list-inside text-gray-700 mb-1">
@@ -18,7 +18,7 @@ export function Projects() {
             <strong>Tools:</strong> React Native, Node.js, Firebase, Firestore, Figma, React Native Paper
           </p>
           <p className="mt-1 text-blue-600 hover:underline">
-            GitHub Link: <span className="text-gray-800">Coming Soon! (Still in Development)</span>
+            GitHub Link: <span className="text-gray-800">https://github.com/keithfykai/TravelLog</span>
           </p>
         </div>
 
@@ -55,7 +55,7 @@ export function Projects() {
             <strong>Tools:</strong> Machine Learning, Mathematics, Fullstack Development
           </p>
           <p className="mt-1 text-blue-600 hover:underline">
-            GitHub Link: <span className="text-gray-800">Coming Soon!</span>
+            GitHub Link: <span className="text-gray-800">Coming Soon! (In development)</span>
           </p>
         </div>
       </div>
