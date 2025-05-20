@@ -38,15 +38,14 @@ Welcome to my GitHub! I'm a penultimate-year Computer Science student at **Nanya
 ### ✈️ TravelLog – Mobile Travel Journal App
 > React Native · Firebase · Firestore · Node.js  
 Track your travels with geo-tagged entries, budget tracking, and sentiment journaling.  
-📍 *[Coming Soon]*
-> Site: Stay Tuned!
+> Deployed @: https://travel-log--xqwlt2zf11.expo.app
 
 ### 🌐 GoWhere – Location Discovery Web App  
 > React.js · Node.js · Firebase  
 A smart platform to discover new places using ranking algorithms based on user preferences.
 > Deployed @: https://keithfykai.github.io/GoWhere/
 
-### 🤖 Final Year Project (In Progress):  
+### 🤖 Final Year Project (In Development):  
 > Generative Code Search using LLMs + GitHub API  
 Designing a smarter way to find and understand code across large codebases using AI.
 > Site: Stay Tuned!
