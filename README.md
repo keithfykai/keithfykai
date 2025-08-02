@@ -4,7 +4,7 @@ Welcome to my GitHub! I'm a penultimate-year Computer Science student at **Nanya
 
 ## 🌟 About Me
 - 🎓 Currently pursuing a B.Eng. in Computer Science at NTU, with a focus on Software Engineering and AI.
-- 🌍 Currently studying at **KTH Royal Institute of Technology** in Sweden for a semester exchange.
+- 🌍 Studied at **KTH Royal Institute of Technology** in Sweden for a semester exchange.
 - 🛠️ Previously interned at **DSTA (Defence Science and Technology Agency)** and **Carro**.
 - 🧠 Enjoy exploring the intersection of cloud infrastructure and immersive tech (like Apple Vision Pro and Unity).
 - 🧑‍💻 Always building—whether it’s mobile apps, web platforms, or system prototypes.
