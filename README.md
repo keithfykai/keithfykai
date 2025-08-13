@@ -48,7 +48,7 @@ A smart platform to discover new places using ranking algorithms based on user p
 ### 🤖 Final Year Project (In Development):  
 > Generative Code Search using LLMs + GitHub API  
 Designing a smarter way to find and understand code across large codebases using AI.
-> Site: Stay Tuned!
+> Repo: https://github.com/keithfykai/Final-Year-Project---Educational-Tutor-Bot
 
 ## 📫 Let's Connect!
 - 🔗 [LinkedIn](https://www.linkedin.com/in/keith-lim-en-kai/)
