@@ -35,6 +35,11 @@ Welcome to my GitHub! I'm a penultimate-year Computer Science student at **Nanya
 
 ## 🚀 Projects
 
+### 🤖 Final Year Project (In Development):  
+> Generative Code Search using LLMs + GitHub API  
+Designing a smarter way to find and understand code across large codebases using AI.
+> https://eduble-zeta.vercel.app
+
 ### ✈️ TravelLog – Mobile Travel Journal App
 > React Native · Firebase · Firestore · Node.js  
 Track your travels with geo-tagged entries, budget tracking, and sentiment journaling.  
@@ -44,11 +49,6 @@ Track your travels with geo-tagged entries, budget tracking, and sentiment journ
 > React.js · Node.js · Firebase  
 A smart platform to discover new places using ranking algorithms based on user preferences.
 > Deployed @: https://keithfykai.github.io/GoWhere/
-
-### 🤖 Final Year Project (In Development):  
-> Generative Code Search using LLMs + GitHub API  
-Designing a smarter way to find and understand code across large codebases using AI.
-> Repo: https://github.com/keithfykai/Final-Year-Project---Educational-Tutor-Bot
 
 ## 📫 Let's Connect!
 - 🔗 [LinkedIn](https://www.linkedin.com/in/keith-lim-en-kai/)
