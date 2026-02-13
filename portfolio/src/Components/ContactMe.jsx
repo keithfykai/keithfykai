@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 export function ContactMe() {
   return (
     <div className="max-w-4xl mx-auto px-6 pt-5 text-center">
-      <h1 className="text-4xl font-bold mb-12 text-gray-900">Contact Me</h1>
+      <h1 className="text-4xl font-bold mb-12 text-white">Contact Me</h1>
       <div className="flex justify-center gap-16">
         {/* GitHub */}
         <a
@@ -12,10 +12,10 @@ export function ContactMe() {
           rel="noopener noreferrer"
           className="flex flex-col items-center group"
         >
-          <div className="bg-gray-900 text-white rounded-full p-6 hover:bg-gray-700 transition-colors">
+          <div className="bg-gray-700 text-white rounded-full p-6 hover:bg-gray-600 transition-colors">
             <FaGithub className="text-4xl" />
           </div>
-          <span className="mt-2 text-sm font-medium text-gray-700 group-hover:text-gray-900">
+          <span className="mt-2 text-sm font-medium text-gray-300 group-hover:text-white">
             GitHub
           </span>
         </a>
@@ -30,7 +30,7 @@ export function ContactMe() {
           <div className="bg-blue-600 text-white rounded-full p-6 hover:bg-blue-500 transition-colors">
             <FaLinkedin className="text-4xl" />
           </div>
-          <span className="mt-2 text-sm font-medium text-gray-700 group-hover:text-gray-900">
+          <span className="mt-2 text-sm font-medium text-gray-300 group-hover:text-white">
             LinkedIn
           </span>
         </a>

@@ -28,20 +28,17 @@ export function Navbar() {
           <Link to="/keithfykai/" className="text-sm font-semibold text-decoration-none">
             Home
           </Link>
-          <Link to="/aboutme" className="text-sm font-semibold text-decoration-none">
-            About Me
-          </Link>
-          <Link to="/projects" className="text-sm font-semibold text-decoration-none">
+          {/* <Link to="/projects" className="text-sm font-semibold text-decoration-none">
             Projects
           </Link>
           <Link to="/contactme" className="text-sm font-semibold text-decoration-none">
             Contact Me
-          </Link>
+          </Link> */}
         </div>
 
         {/* Mobile Hamburger Menu */}
         <div className="md:hidden flex items-center">
-          <button onClick={toggleMenu} className="text-gray-900 focus:outline-none">
+          <button onClick={toggleMenu} className="text-white focus:outline-none">
             <svg
               className="w-6 h-6"
               fill="none"
@@ -66,7 +63,7 @@ export function Navbar() {
           <Link to="/keithfykai/" className="text-sm font-semibold text-decoration-none" onClick={closeMenu}>
             Home
           </Link>
-          <Link to="/aboutme" className="text-sm font-semibold text-decoration-none" onClick={closeMenu}>
+          {/* <Link to="/aboutme" className="text-sm font-semibold text-decoration-none" onClick={closeMenu}>
             About Me
           </Link>
           <Link to="/projects" className="text-sm font-semibold text-decoration-none" onClick={closeMenu}>
@@ -74,7 +71,7 @@ export function Navbar() {
           </Link>
           <Link to="/contactme" className="text-sm font-semibold text-decoration-none" onClick={closeMenu}>
             Contact Me
-          </Link>
+          </Link> */}
         </div>
       )}
     </header>
