@@ -2,16 +2,16 @@ import { FaRobot, FaPlane, FaCompass } from 'react-icons/fa';
 
 export function Projects() {
   return (
-    <div className="max-w-6xl mx-auto px-6 py-10">
-      <h1 className="text-4xl font-extrabold text-white mb-8">Projects</h1>
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-10">
+      <h1 className="text-3xl sm:text-4xl font-extrabold text-white mb-6 sm:mb-8">Projects</h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
 
                 {/* Educational Tutor Bot */}
-        <div className="bg-gray-900 border border-gray-700 rounded-lg p-6 hover:border-indigo-500 transition-colors">
-          <div className="flex items-center gap-3 mb-3">
-            <FaRobot className="text-indigo-400 text-3xl flex-shrink-0" />
-            <h2 className="text-2xl font-semibold text-white">
+        <div className="bg-gray-900 border border-gray-700 rounded-lg p-4 sm:p-6 hover:border-indigo-500 transition-colors">
+          <div className="flex items-center gap-2 sm:gap-3 mb-3">
+            <FaRobot className="text-indigo-400 text-2xl sm:text-3xl flex-shrink-0" />
+            <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-white leading-tight">
               <a href="https://eduble-zeta.vercel.app/" className="hover:text-indigo-400 transition-colors">Educational Tutor Bot</a>
             </h2>
           </div>
@@ -24,16 +24,16 @@ export function Projects() {
           <p className="mt-2 text-sm text-gray-400">
             <strong>Tools:</strong> Next.js, Flask, TypeScript, Python, Firebase, OpenAI, Docker, GCP, GitHub Actions
           </p>
-          <p className="mt-1 text-blue-400 hover:underline">
-            GitHub Link: <span className="text-gray-300"><a href="https://github.com/keithfykai/Final-Year-Project---Educational-Tutor-Bot">https://github.com/keithfykai/Final-Year-Project---Educational-Tutor-Bot</a></span>
+          <p className="mt-1 text-blue-400 hover:underline text-sm">
+            GitHub Link: <span className="text-gray-300 break-all"><a href="https://github.com/keithfykai/Final-Year-Project---Educational-Tutor-Bot">View on GitHub</a></span>
           </p>
         </div>
 
         {/* TravelLog */}
-        <div className="bg-gray-900 border border-gray-700 rounded-lg p-6 hover:border-indigo-500 transition-colors">
-          <div className="flex items-center gap-3 mb-3">
-            <FaPlane className="text-indigo-400 text-3xl flex-shrink-0" />
-            <h2 className="text-2xl font-semibold text-white">
+        <div className="bg-gray-900 border border-gray-700 rounded-lg p-4 sm:p-6 hover:border-indigo-500 transition-colors">
+          <div className="flex items-center gap-2 sm:gap-3 mb-3">
+            <FaPlane className="text-indigo-400 text-2xl sm:text-3xl flex-shrink-0" />
+            <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-white leading-tight">
               <a href="https://travel-log--xqwlt2zf11.expo.app" className="hover:text-indigo-400 transition-colors">TravelLog Mobile Application</a>
             </h2>
           </div>
@@ -45,16 +45,16 @@ export function Projects() {
           <p className="mt-2 text-sm text-gray-400">
             <strong>Tools:</strong> React Native, JavaScript, Node.js, Firebase Auth, HTML/CSS, Figma, Redux, Redux Toolkit
           </p>
-          <p className="mt-1 text-blue-400 hover:underline">
-            GitHub Link: <span className="text-gray-300">https://github.com/keithfykai/TravelLog</span>
+          <p className="mt-1 text-blue-400 hover:underline text-sm">
+            GitHub Link: <span className="text-gray-300 break-all">https://github.com/keithfykai/TravelLog</span>
           </p>
         </div>
 
         {/* GoWhere */}
-        <div className="bg-gray-900 border border-gray-700 rounded-lg p-6 hover:border-indigo-500 transition-colors">
-          <div className="flex items-center gap-3 mb-3">
-            <FaCompass className="text-indigo-400 text-3xl flex-shrink-0" />
-            <h2 className="text-2xl font-semibold text-white">
+        <div className="bg-gray-900 border border-gray-700 rounded-lg p-4 sm:p-6 hover:border-indigo-500 transition-colors">
+          <div className="flex items-center gap-2 sm:gap-3 mb-3">
+            <FaCompass className="text-indigo-400 text-2xl sm:text-3xl flex-shrink-0" />
+            <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-white leading-tight">
               <a href="https://keithfykai.github.io/GoWhere/" className="hover:text-indigo-400 transition-colors">GoWhere Web Application</a>
             </h2>
           </div>
@@ -66,8 +66,8 @@ export function Projects() {
           <p className="mt-2 text-sm text-gray-400">
             <strong>Tools:</strong> React.js, Node.js, Firebase Auth and Firestore, HTML/CSS, Figma
           </p>
-          <p className="mt-1 text-blue-400 hover:underline">
-            GitHub Link: <span className="text-gray-300"><a href="https://github.com/keithfykai/GoWhere">https://github.com/keithfykai/GoWhere</a></span>
+          <p className="mt-1 text-blue-400 hover:underline text-sm">
+            GitHub Link: <span className="text-gray-300 break-all"><a href="https://github.com/keithfykai/GoWhere">https://github.com/keithfykai/GoWhere</a></span>
           </p>
         </div>
 

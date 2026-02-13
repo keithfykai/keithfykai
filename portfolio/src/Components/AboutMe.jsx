@@ -38,21 +38,21 @@ export function AboutMe() {
             <section className="py-4 mb-6">
                 <h2 className="text-2xl font-semibold text-white mb-4">Hobbies & Interests</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div className="bg-gray-900 border border-gray-700 rounded-lg p-4">
-                        <h3 className="text-lg font-semibold text-indigo-400 mb-2">🎱 Snooker</h3>
-                        <p className="text-gray-300">Former Snooker Captain at NTU Pioneer Hall. Mentored 8 members and led the team to Top 8 in the NTU Inter-Hall Games.</p>
+                    <div className="bg-gray-900 border border-gray-700 rounded-lg p-3 sm:p-4">
+                        <h3 className="text-base sm:text-lg font-semibold text-indigo-400 mb-2">🎱 Snooker</h3>
+                        <p className="text-sm sm:text-base text-gray-300">Former Snooker Captain at NTU Pioneer Hall. Mentored 8 members and led the team to Top 8 in the NTU Inter-Hall Games.</p>
                     </div>
-                    <div className="bg-gray-900 border border-gray-700 rounded-lg p-4">
-                        <h3 className="text-lg font-semibold text-indigo-400 mb-2">🇯🇵 Japanese Language</h3>
-                        <p className="text-gray-300">JLPT N3 certified. Enjoy learning Japanese language and culture in my free time.</p>
+                    <div className="bg-gray-900 border border-gray-700 rounded-lg p-3 sm:p-4">
+                        <h3 className="text-base sm:text-lg font-semibold text-indigo-400 mb-2">🇯🇵 Japanese Language</h3>
+                        <p className="text-sm sm:text-base text-gray-300">JLPT N3 certified. Enjoy learning Japanese language and culture in my free time.</p>
                     </div>
-                    <div className="bg-gray-900 border border-gray-700 rounded-lg p-4">
-                        <h3 className="text-lg font-semibold text-indigo-400 mb-2">✈️ Travel</h3>
-                        <p className="text-gray-300">Love exploring new places and cultures around the world, from the Arctic Circle in Svalbard to the streets of Stockholm.</p>
+                    <div className="bg-gray-900 border border-gray-700 rounded-lg p-3 sm:p-4">
+                        <h3 className="text-base sm:text-lg font-semibold text-indigo-400 mb-2">✈️ Travel</h3>
+                        <p className="text-sm sm:text-base text-gray-300">Love exploring new places and cultures around the world, from the Arctic Circle in Svalbard to the streets of Stockholm.</p>
                     </div>
-                    <div className="bg-gray-900 border border-gray-700 rounded-lg p-4">
-                        <h3 className="text-lg font-semibold text-indigo-400 mb-2">💻 Tech Projects</h3>
-                        <p className="text-gray-300">Constantly building side projects to explore new technologies and solve real-world problems.</p>
+                    <div className="bg-gray-900 border border-gray-700 rounded-lg p-3 sm:p-4">
+                        <h3 className="text-base sm:text-lg font-semibold text-indigo-400 mb-2">💻 Tech Projects</h3>
+                        <p className="text-sm sm:text-base text-gray-300">Constantly building side projects to explore new technologies and solve real-world problems.</p>
                     </div>
                 </div>
             </section>
@@ -62,21 +62,21 @@ export function AboutMe() {
                 
                 {/* Actxa Entry */}
                 <div 
-                    className={`flex gap-6 mb-8 timeline-item transition-all duration-700 ${
+                    className={`flex gap-4 sm:gap-6 mb-8 timeline-item transition-all duration-700 ${
                         visibleItems.has('0') ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
                     }`}
                     data-index="0"
                 >
                     <div className="flex flex-col items-center">
-                        <div className="w-4 h-4 bg-indigo-400 rounded-full"></div>
+                        <div className="w-3 h-3 sm:w-4 sm:h-4 bg-indigo-400 rounded-full"></div>
                         <div className="w-0.5 h-full bg-gray-600 mt-2"></div>
                     </div>
                     <div className="flex-1 pb-8">
-                        <h3 className="text-xl font-semibold text-cyan-400">Actxa, Singapore <span className="text-sm text-gray-400">(Dec 2025 - Present)</span></h3>
-                        <p className="text-lg text-gray-300 mt-2">
+                        <h3 className="text-base sm:text-lg md:text-xl font-semibold text-cyan-400">Actxa, Singapore <span className="text-xs sm:text-sm text-gray-400">(Dec 2025 - Present)</span></h3>
+                        <p className="text-sm sm:text-base md:text-lg text-gray-300 mt-2">
                             <span className="font-semibold text-indigo-300">Software Engineer Intern</span>
                         </p>
-                        <ul className="list-disc pl-5 mt-2 text-lg text-gray-300">
+                        <ul className="list-disc pl-4 sm:pl-5 mt-2 text-sm sm:text-base md:text-lg text-gray-300 space-y-1">
                             <li>Developed production backend Gen-AI features using Retrieval-Augmented Generation (RAG) to generate personalized health insights across sleep, activity, and recovery domains.</li>
                             <li>Integrated LLM APIs into Python services using LangChain, with data pipelines utilizing PostgreSQL and MongoDB databases.</li>
                         </ul>
