@@ -17,14 +17,14 @@ export function Navbar() {
 
   return (
     <header>
-      <nav className="mx-auto flex max-w-7xl items-center justify-between py-4 px-8" aria-label="Global">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between py-8 px-12" aria-label="Global">
         {/* Logo */}
         <div className="flex-1">
           <img className="h-12 w-auto" src={Eddy} alt="eddy the mascot (i made him during a hackathon) :D" />
         </div>
 
         {/* Desktop Navigation Links */}
-        <div className="hidden md:flex gap-x-12 justify-center flex-1">
+        <div className="hidden md:flex gap-x-12 flex-1 justify-end">
           <Link to="/keithfykai/" className="text-sm font-semibold text-decoration-none">
             Home
           </Link>

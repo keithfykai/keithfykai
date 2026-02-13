@@ -16,8 +16,17 @@ export default function App() {
             <Route path="/keithfykai/" element={
               <div>
                 <Hero />
+                <div className="mx-auto max-w-6xl px-12">
+                  <hr className="border-t border-gray-700" />
+                </div>
                 <AboutMe />
+                <div className="mx-auto max-w-6xl px-12">
+                  <hr className="border-t border-gray-700" />
+                </div>
                 <Projects />
+                <div className="mx-auto max-w-6xl px-12">
+                  <hr className="border-t border-gray-700" />
+                </div>
                 <ContactMe />
               </div>
               } />

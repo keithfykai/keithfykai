@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export function ContactMe() {
   return (
-    <div className="max-w-4xl mx-auto px-6 pt-5 text-center">
+    <div id="contact-me" className="max-w-4xl mx-auto px-6 py-10 text-center">
       <h1 className="text-4xl font-bold mb-12 text-white">Contact Me</h1>
       <div className="flex justify-center gap-16">
         {/* GitHub */}

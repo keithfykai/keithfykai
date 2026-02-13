@@ -1,21 +1,49 @@
+import { FaRobot, FaPlane, FaCompass } from 'react-icons/fa';
+
 export function Projects() {
   return (
-    <div className="max-w-4xl mx-auto px-6 py-5">
-      <h1 className="text-4xl font-extrabold text-white text-center mb-8">Projects</h1>
+    <div className="max-w-6xl mx-auto px-6 py-10">
+      <h1 className="text-4xl font-extrabold text-white mb-8">Projects</h1>
 
-      <div className="space-y-12">
-        {/* TravelLog */}
-        <div>
-          <h2 className="text-2xl font-semibold text-indigo-400 mb-2">
-            <a href="https://travel-log--xqwlt2zf11.expo.app">TravelLog Mobile Application</a>
-          </h2>
-          <p className="italic text-sm text-gray-400 mb-1">Team Lead / Full Stack Developer</p>
-          <ul className="list-disc list-inside text-gray-300 mb-1">
-            <li>Cross-platform travel journal app with daily logs, photos, notes, and expenses.</li>
-            <li>Supports automatic currency conversion and trip timeline visualization.</li>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                {/* Educational Tutor Bot */}
+        <div className="bg-gray-900 border border-gray-700 rounded-lg p-6 hover:border-indigo-500 transition-colors">
+          <div className="flex items-center gap-3 mb-3">
+            <FaRobot className="text-indigo-400 text-3xl flex-shrink-0" />
+            <h2 className="text-2xl font-semibold text-white">
+              <a href="https://eduble-zeta.vercel.app/" className="hover:text-indigo-400 transition-colors">Educational Tutor Bot</a>
+            </h2>
+          </div>
+          <p className="italic text-sm text-gray-400 mb-1">Full Stack Developer (Jul 2025 - Present)</p>
+          <ul className="list-disc list-inside text-gray-300">
+            <li>Designed and built an AI-powered, syllabus-aligned educational tutor using a RAG pipeline with vector search and LLM integration.</li>
+            <li>Implemented full-stack architecture with user authentication and session management.</li>
+            <li>Deployed Next.js frontend on Vercel and Flask backend on Google Cloud using Docker and CI/CD pipelines.</li>
           </ul>
           <p className="mt-2 text-sm text-gray-400">
-            <strong>Tools:</strong> React Native, Node.js, Firebase, Firestore, Figma, React Native Paper
+            <strong>Tools:</strong> Next.js, Flask, TypeScript, Python, Firebase, OpenAI, Docker, GCP, GitHub Actions
+          </p>
+          <p className="mt-1 text-blue-400 hover:underline">
+            GitHub Link: <span className="text-gray-300"><a href="https://github.com/keithfykai/Final-Year-Project---Educational-Tutor-Bot">https://github.com/keithfykai/Final-Year-Project---Educational-Tutor-Bot</a></span>
+          </p>
+        </div>
+
+        {/* TravelLog */}
+        <div className="bg-gray-900 border border-gray-700 rounded-lg p-6 hover:border-indigo-500 transition-colors">
+          <div className="flex items-center gap-3 mb-3">
+            <FaPlane className="text-indigo-400 text-3xl flex-shrink-0" />
+            <h2 className="text-2xl font-semibold text-white">
+              <a href="https://travel-log--xqwlt2zf11.expo.app" className="hover:text-indigo-400 transition-colors">TravelLog Mobile Application</a>
+            </h2>
+          </div>
+          <p className="italic text-sm text-gray-400 mb-1">Team Lead / Full Stack Developer (Jan 2025 - Jun 2025)</p>
+          <ul className="list-disc list-inside text-gray-300 mb-1">
+            <li>Spearheading development of a travel journal app with built-in expense tracking and daily sentiment logging.</li>
+            <li>Designed schema for real-time storage and retrieval of geo-tagged entries and budget summaries.</li>
+          </ul>
+          <p className="mt-2 text-sm text-gray-400">
+            <strong>Tools:</strong> React Native, JavaScript, Node.js, Firebase Auth, HTML/CSS, Figma, Redux, Redux Toolkit
           </p>
           <p className="mt-1 text-blue-400 hover:underline">
             GitHub Link: <span className="text-gray-300">https://github.com/keithfykai/TravelLog</span>
@@ -23,41 +51,26 @@ export function Projects() {
         </div>
 
         {/* GoWhere */}
-        <div>
-          <h2 className="text-2xl font-semibold text-indigo-400 mb-2">
-            <a href="https://keithfykai.github.io/GoWhere/">GoWhere Web Application</a>
-          </h2>
-          <p className="italic text-sm text-gray-400 mb-1">Team Leader / Full Stack Developer</p>
+        <div className="bg-gray-900 border border-gray-700 rounded-lg p-6 hover:border-indigo-500 transition-colors">
+          <div className="flex items-center gap-3 mb-3">
+            <FaCompass className="text-indigo-400 text-3xl flex-shrink-0" />
+            <h2 className="text-2xl font-semibold text-white">
+              <a href="https://keithfykai.github.io/GoWhere/" className="hover:text-indigo-400 transition-colors">GoWhere Web Application</a>
+            </h2>
+          </div>
+          <p className="italic text-sm text-gray-400 mb-1">Team Leader / Full Stack Developer (Aug 2023 - Dec 2023)</p>
           <ul className="list-disc list-inside text-gray-300 mb-1">
-            <li>Location-based travel app for discovering places in Singapore.</li>
-            <li>Features live maps, real-time weather, user reviews, and personalized suggestions.</li>
-            <li>Emphasizes ease of exploration and local discovery.</li>
+            <li>Developed a location discovery platform with ranking algorithms based on user activity and preferences.</li>
+            <li>Designed backend services to aggregate user interaction logs and generate personalized recommendations.</li>
           </ul>
           <p className="mt-2 text-sm text-gray-400">
-            <strong>Tools:</strong> React.js, Node.js, Firebase, TailwindCSS, Figma
+            <strong>Tools:</strong> React.js, Node.js, Firebase Auth and Firestore, HTML/CSS, Figma
           </p>
           <p className="mt-1 text-blue-400 hover:underline">
             GitHub Link: <span className="text-gray-300"><a href="https://github.com/keithfykai/GoWhere">https://github.com/keithfykai/GoWhere</a></span>
           </p>
         </div>
 
-        {/* Final Year Project */}
-        <div>
-          <h2 className="text-2xl font-semibold text-indigo-400 mb-2">
-            Final Year Project: Next-Gen Generative Search Engine for Code Base
-          </h2>
-          <ul className="list-disc list-inside text-gray-300">
-            <li>A generative search engine using LLMs and GitHub API.</li>
-            <li>Enables AI-assisted code discovery, evaluation, and recommendation.</li>
-            <li>Explores LLM applications in software development, debugging, and optimization.</li>
-          </ul>
-          <p className="mt-2 text-sm text-gray-400">
-            <strong>Tools:</strong> Machine Learning, Mathematics, Fullstack Development
-          </p>
-          <p className="mt-1 text-blue-400 hover:underline">
-            GitHub Link: <span className="text-gray-300">Coming Soon! (In development)</span>
-          </p>
-        </div>
       </div>
     </div>
   );
