@@ -35,7 +35,7 @@ export function Hero() {
                             Check out what I've been working on below.
                         </p>
                         <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4 sm:gap-x-6">
-                            <a href="#about-me" className="rounded-4xl bg-cyan-200 px-4 py-3 text-sm font-semibold text-black shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition-colors">
+                            <a href="#about-me" className="rounded-4xl bg-indigo-400 px-4 py-3 text-sm font-semibold text-black shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition-colors">
                                 About Me
                             </a>
                             <a href="#contact-me" className="text-sm font-semibold text-white hover:text-gray-300 transition-colors">

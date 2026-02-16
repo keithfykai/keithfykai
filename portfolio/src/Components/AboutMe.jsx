@@ -31,7 +31,7 @@ export function AboutMe() {
             <h1 className="text-4xl font-extrabold text-white mb-4">About Me</h1>
 
             <p className="text-xl text-gray-300 mb-10">
-                Hello! I'm <span className="text-cyan-400 font-semibold">Keith</span>, currently a final year <span className="text-indigo-400">Computer Science</span> student studying at <span className="text-cyan-400">Nanyang Technological University</span> in Singapore. I am passionate about many areas of tech, including <span className="text-indigo-400">Full Stack Web Development</span>, <span className="text-indigo-400">Cloud Computing</span>, and <span className="text-indigo-400">AI/Machine Learning</span>. I also spent a semester at <span className="text-cyan-400">KTH Royal Institute of Technology</span> in Stockholm, Sweden, where I deepened my knowledge in Computer Security and Advanced Software Engineering.
+                Hello! I'm <span className="text-white font-semibold">Keith</span>, currently a final year <span className="text-indigo-400">Computer Science</span> student studying at <span className="text-white font-semibold">Nanyang Technological University</span> in Singapore. I am passionate about many areas of tech, including <span className="text-indigo-400">Full Stack Web Development</span>, <span className="text-indigo-400">Cloud Computing</span>, and <span className="text-indigo-400">AI/Machine Learning</span>. I also spent a semester at <span className="text-white font-semibold">KTH Royal Institute of Technology</span> in Stockholm, Sweden, where I deepened my knowledge in Computer Security and Advanced Software Engineering.
             </p>
 
             {/* Hobbies Section */}
@@ -72,7 +72,7 @@ export function AboutMe() {
                         <div className="w-0.5 h-full bg-gray-600 mt-2"></div>
                     </div>
                     <div className="flex-1 pb-8">
-                        <h3 className="text-base sm:text-lg md:text-xl font-semibold text-cyan-400">Actxa, Singapore <span className="text-xs sm:text-sm text-gray-400">(Dec 2025 - Present)</span></h3>
+                        <h3 className="text-base sm:text-lg md:text-xl font-semibold text-white">Actxa, Singapore <span className="text-xs sm:text-sm text-gray-400">(Dec 2025 - Present)</span></h3>
                         <p className="text-sm sm:text-base md:text-lg text-gray-300 mt-2">
                             <span className="font-semibold text-indigo-300">Software Engineer Intern</span>
                         </p>
@@ -98,7 +98,7 @@ export function AboutMe() {
                         <div className="w-0.5 h-full bg-gray-600 mt-2"></div>
                     </div>
                     <div className="flex-1 pb-8">
-                        <h3 className="text-xl font-semibold text-cyan-400">Defence Science and Technology Agency (DSTA), Singapore <span className="text-sm text-gray-400">(May 2024 - Dec 2024)</span></h3>
+                        <h3 className="text-xl font-semibold text-white">Defence Science and Technology Agency (DSTA), Singapore <span className="text-sm text-gray-400">(May 2024 - Dec 2024)</span></h3>
                         <p className="text-lg text-gray-300 mt-2">
                             <span className="font-semibold text-indigo-300">Cloud and Virtual Reality Software Development Intern</span>
                         </p>
@@ -124,7 +124,7 @@ export function AboutMe() {
                         <div className="w-0.5 h-full bg-gray-600 mt-2"></div>
                     </div>
                     <div className="flex-1 pb-8">
-                        <h3 className="text-xl font-semibold text-cyan-400">Carro, Singapore <span className="text-sm text-gray-400">(Nov 2021 - Mar 2022)</span></h3>
+                        <h3 className="text-xl font-semibold text-white">Carro, Singapore <span className="text-sm text-gray-400">(Nov 2021 - Mar 2022)</span></h3>
                         <p className="text-lg text-gray-300 mt-2">
                             <span className="font-semibold text-indigo-300">Administrative Intern - Insurance and Operations Support</span>
                         </p>
@@ -151,7 +151,7 @@ export function AboutMe() {
                         <div className="w-0.5 h-full bg-gray-600 mt-2"></div>
                     </div>
                     <div className="flex-1 pb-8">
-                        <h3 className="text-xl font-semibold text-cyan-400">NTU Pioneer Hall <span className="text-sm text-gray-400">(Aug 2023 - May 2024)</span></h3>
+                        <h3 className="text-xl font-semibold text-white">NTU Pioneer Hall <span className="text-sm text-gray-400">(Aug 2023 - May 2024)</span></h3>
                         <p className="text-lg text-gray-300 mt-2">
                             <span className="font-semibold text-indigo-300">Snooker Captain</span>
                         </p>
@@ -200,7 +200,7 @@ export function AboutMe() {
                         <div className="w-0.5 h-full bg-gray-600 mt-2"></div>
                     </div>
                     <div className="flex-1 pb-8">
-                        <h3 className="text-xl font-semibold text-cyan-400">Nanyang Technological University, Singapore <span className="text-sm text-gray-400">(Aug 2022 - 2026)</span></h3>
+                        <h3 className="text-xl font-semibold text-white">Nanyang Technological University, Singapore <span className="text-sm text-gray-400">(Aug 2022 - 2026)</span></h3>
                         <p className="text-lg text-gray-300 mt-2">
                             <span className="font-semibold text-indigo-300">Bachelor of Engineering in Computer Science, 2nd Upper</span>
                         </p>
@@ -223,7 +223,7 @@ export function AboutMe() {
                         <div className="w-0.5 h-full bg-gray-600 mt-2"></div>
                     </div>
                     <div className="flex-1 pb-8">
-                        <h3 className="text-xl font-semibold text-cyan-400">KTH Royal Institute of Technology, Stockholm, Sweden <span className="text-sm text-gray-400">(Jan 2025 - Jun 2025)</span></h3>
+                        <h3 className="text-xl font-semibold text-white">KTH Royal Institute of Technology, Stockholm, Sweden <span className="text-sm text-gray-400">(Jan 2025 - Jun 2025)</span></h3>
                         <p className="text-lg text-gray-300 mt-2">
                             <span className="font-semibold text-indigo-300">School of Electrical Engineering and Computer Science</span>
                         </p>
@@ -244,12 +244,12 @@ export function AboutMe() {
                         <div className="w-4 h-4 bg-indigo-400 rounded-full"></div>
                     </div>
                     <div className="flex-1">
-                        <h3 className="text-xl font-semibold text-cyan-400">Anglo-Chinese Junior College, Singapore <span className="text-sm text-gray-400">(Mar 2018 - Dec 2019)</span></h3>
+                        <h3 className="text-xl font-semibold text-white">Anglo-Chinese Junior College, Singapore <span className="text-sm text-gray-400">(Mar 2018 - Dec 2019)</span></h3>
                         <p className="text-lg text-gray-300 mt-2">
                             <span className="font-semibold text-indigo-300">GCE A-Levels</span>
                         </p>
                         <ul className="list-disc pl-5 mt-2 text-lg text-gray-300">
-                            <li>Majored in Physics, Chemistry, Mathematics, and Economics</li>
+                            <li>Physics, Chemistry, Mathematics, and Economics</li>
                         </ul>
                     </div>
                 </div>

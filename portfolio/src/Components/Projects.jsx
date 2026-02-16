@@ -39,14 +39,14 @@ export function Projects() {
           </div>
           <p className="italic text-sm text-gray-400 mb-1">Team Lead / Full Stack Developer (Jan 2025 - Jun 2025)</p>
           <ul className="list-disc list-inside text-gray-300 mb-1">
-            <li>Spearheading development of a travel journal app with built-in expense tracking and daily sentiment logging.</li>
+            <li>Spearheaded development of a travel journal app with built-in expense tracking and daily sentiment logging.</li>
             <li>Designed schema for real-time storage and retrieval of geo-tagged entries and budget summaries.</li>
           </ul>
           <p className="mt-2 text-sm text-gray-400">
             <strong>Tools:</strong> React Native, JavaScript, Node.js, Firebase Auth, HTML/CSS, Figma, Redux, Redux Toolkit
           </p>
           <p className="mt-1 text-blue-400 hover:underline text-sm">
-            GitHub Link: <span className="text-gray-300 break-all">https://github.com/keithfykai/TravelLog</span>
+            GitHub Link: <span className="text-gray-300 break-all">View on Github</span>
           </p>
         </div>
 
@@ -67,7 +67,7 @@ export function Projects() {
             <strong>Tools:</strong> React.js, Node.js, Firebase Auth and Firestore, HTML/CSS, Figma
           </p>
           <p className="mt-1 text-blue-400 hover:underline text-sm">
-            GitHub Link: <span className="text-gray-300 break-all"><a href="https://github.com/keithfykai/GoWhere">https://github.com/keithfykai/GoWhere</a></span>
+            GitHub Link: <span className="text-gray-300 break-all"><a href="https://github.com/keithfykai/GoWhere">View on GitHub</a></span>
           </p>
         </div>
 
