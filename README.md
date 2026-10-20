@@ -1,15 +1,15 @@
 # Hi, I'm Keith Lim
 
-I am a graduating Computer Science student at **Nanyang Technological University (NTU), Singapore**, with a strong interest in **full-stack development**, **cloud computing**, and **generative AI applications**.
+I am an **Engineer at DSTA (Defence Science and Technology Agency), Singapore**, working as a **System Administrator**. I graduated from **Nanyang Technological University (NTU), Singapore**, with a B.Eng. in Computer Science and have a strong interest in **full-stack development**, **cloud computing**, and **generative AI applications**.
 
 I enjoy building practical, user-focused software across web, mobile, and AI-driven systems, and I am especially interested in solutions that combine strong engineering foundations with emerging technologies.
 
 ## About Me
 
-- Graduating with a **B.Eng. in Computer Science** from NTU, with a focus on **Software Engineering** and **Artificial Intelligence**
+- Graduated with a **B.Eng. in Computer Science** from NTU in **2026**, with a focus on **Software Engineering** and **Artificial Intelligence**
 - Completed a semester exchange at **KTH Royal Institute of Technology, Sweden**
-- Currently a **Software Engineer Intern at Actxa**
-- Previously interned at **DSTA (Defence Science and Technology Agency)** and **Carro**
+- Currently an **Engineer at DSTA** (**Aug 2026 – Present**), working as a **System Administrator** with **Nutanix**, **Linux**, **Ansible**, and **Infrastructure-as-Code**
+- Previously interned at **Actxa** as a Software Engineer Intern, **DSTA**, and **Carro**
 - Interested in the intersection of **cloud infrastructure**, **AI systems**, and **immersive technologies**
 - Passionate about building scalable applications, intelligent products, and polished user experiences
 
