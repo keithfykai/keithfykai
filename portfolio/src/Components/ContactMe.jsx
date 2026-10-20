@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 export function ContactMe() {
   return (
     <div id="contact-me" className="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-10 text-center">
-      <h1 className="text-3xl sm:text-4xl font-bold mb-8 sm:mb-12 text-white">Contact Me</h1>
+      <h1 className="text-3xl sm:text-4xl font-bold mb-8 sm:mb-12 text-foreground">Contact Me</h1>
       <div className="flex justify-center gap-8 sm:gap-12 md:gap-16">
         {/* GitHub */}
         <a
@@ -15,7 +15,7 @@ export function ContactMe() {
           <div className="bg-gray-700 text-white rounded-full p-4 sm:p-6 hover:bg-gray-600 transition-colors">
             <FaGithub className="text-3xl sm:text-4xl" />
           </div>
-          <span className="mt-2 text-xs sm:text-sm font-medium text-gray-300 group-hover:text-white">
+          <span className="mt-2 text-xs sm:text-sm font-medium text-muted group-hover:text-foreground">
             GitHub
           </span>
         </a>
@@ -30,7 +30,7 @@ export function ContactMe() {
           <div className="bg-blue-600 text-white rounded-full p-4 sm:p-6 hover:bg-blue-500 transition-colors">
             <FaLinkedin className="text-3xl sm:text-4xl" />
           </div>
-          <span className="mt-2 text-xs sm:text-sm font-medium text-gray-300 group-hover:text-white">
+          <span className="mt-2 text-xs sm:text-sm font-medium text-muted group-hover:text-foreground">
             LinkedIn
           </span>
         </a>

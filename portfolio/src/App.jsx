@@ -9,7 +9,7 @@ import { Footer } from "./Components/Footer";
 export default function App() {
   return (
     <Router>
-      <div className="min-h-screen flex flex-col bg-black text-white">
+      <div className="min-h-screen flex flex-col bg-page text-foreground">
         <Navbar />
         <div className="flex-grow">
           <Routes>
@@ -17,20 +17,17 @@ export default function App() {
               <div>
                 <Hero />
                 <div className="mx-auto max-w-6xl px-12">
-                  <hr className="border-t border-gray-700" />
+                  <hr className="border-t border-divider" />
                 </div>
                 <AboutMe />
                 <div className="mx-auto max-w-6xl px-12">
-                  <hr className="border-t border-gray-700" />
-                </div>
-                <Projects />
-                <div className="mx-auto max-w-6xl px-12">
-                  <hr className="border-t border-gray-700" />
+                  <hr className="border-t border-divider" />
                 </div>
                 <ContactMe />
               </div>
               } />
-            <Route path="*" element={<div className="text-center py-20 text-lg font-semibold text-white">404 Not Found</div>} />
+            <Route path="/keithfykai/projects" element={<Projects />} />
+            <Route path="*" element={<div className="text-center py-20 text-lg font-semibold text-foreground">404 Not Found</div>} />
           </Routes>
         </div>
         <Footer />

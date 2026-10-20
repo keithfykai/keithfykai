@@ -9,18 +9,18 @@ export function Hero() {
                     <div className="flex-shrink-0 text-center">
                         <div className="relative inline-block">
                             {/* Rotating dots border */}
-                            <div className="absolute inset-0 rounded-full border-4 border-dashed border-white animate-spin" style={{ padding: '1rem', animationDuration: '80s' }}></div>
+                            <div className="absolute inset-0 rounded-full border-4 border-dashed border-foreground animate-spin" style={{ padding: '1rem', animationDuration: '80s' }}></div>
                             
                             {/* Profile photo */}
                             <div className="relative m-2 sm:m-4">
                                 <img 
-                                    className="rounded-full w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 object-cover border-4 sm:border-8 border-gray-600" 
+                                    className="rounded-full w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 object-cover border-4 sm:border-8 border-outline"
                                     src={mainphoto}
                                     alt="Keith in Svalbard"
                                 />
                             </div>
                         </div>
-                        <p className="mt-4 text-sm text-white">
+                        <p className="mt-4 text-sm text-foreground">
                             📍 Svalbard, Longyearbyen<br />
                             (78.2253° N, 15.6256° E)
                         </p>
@@ -28,17 +28,17 @@ export function Hero() {
 
                     {/* Right side - Text content */}
                     <div className="flex-1 text-center md:text-left">
-                        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white">
+                        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-foreground">
                             Welcome, I'm Keith
                         </h1>
-                        <p className="mt-4 sm:mt-6 text-base sm:text-lg md:text-xl leading-7 sm:leading-8 text-gray-300">
+                        <p className="mt-4 sm:mt-6 text-base sm:text-lg md:text-xl leading-7 sm:leading-8 text-muted">
                             Check out what I've been working on below.
                         </p>
                         <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4 sm:gap-x-6">
                             <a href="#about-me" className="rounded-4xl bg-indigo-400 px-4 py-3 text-sm font-semibold text-black shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 transition-colors">
                                 About Me
                             </a>
-                            <a href="#contact-me" className="text-sm font-semibold text-white hover:text-gray-300 transition-colors">
+                            <a href="#contact-me" className="text-sm font-semibold text-foreground hover:text-muted transition-colors">
                                 Contact Me<span aria-hidden="true"> →</span>
                             </a>
                         </div>

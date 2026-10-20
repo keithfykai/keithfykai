@@ -1,9 +1,26 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Eddy from "../assets/Eddy.png";
 import { Link } from "react-router-dom";
+import { ThemeToggle } from "./ThemeToggle";
 
 export function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [themeMode, setThemeMode] = useState(
+    () => document.documentElement.dataset.theme || "system"
+  );
+
+  useEffect(() => {
+    if (themeMode === "system") {
+      delete document.documentElement.dataset.theme;
+    } else {
+      document.documentElement.dataset.theme = themeMode;
+    }
+    try {
+      localStorage.setItem("portfolio-theme", themeMode);
+    } catch {
+      // Theme switching still works when browser storage is unavailable.
+    }
+  }, [themeMode]);
 
   // Function to toggle the mobile menu
   const toggleMenu = () => {
@@ -24,21 +41,19 @@ export function Navbar() {
         </div>
 
         {/* Desktop Navigation Links */}
-        <div className="hidden md:flex gap-x-12 flex-1 justify-end">
+        <div className="hidden md:flex items-center gap-x-6 flex-1 justify-end">
+          <ThemeToggle mode={themeMode} onModeChange={setThemeMode} />
           <Link to="/keithfykai/" className="text-sm font-semibold text-decoration-none">
             Home
           </Link>
-          {/* <Link to="/projects" className="text-sm font-semibold text-decoration-none">
+          <Link to="/keithfykai/projects" className="text-sm font-semibold text-decoration-none">
             Projects
           </Link>
-          <Link to="/contactme" className="text-sm font-semibold text-decoration-none">
-            Contact Me
-          </Link> */}
         </div>
 
         {/* Mobile Hamburger Menu */}
         <div className="md:hidden flex items-center">
-          <button onClick={toggleMenu} className="text-white focus:outline-none">
+          <button onClick={toggleMenu} className="text-foreground focus:outline-none">
             <svg
               className="w-6 h-6"
               fill="none"
@@ -59,19 +74,14 @@ export function Navbar() {
 
       {/* Mobile Menu (Shown when hamburger is clicked) */}
       {isMobileMenuOpen && (
-        <div className="md:hidden flex flex-col items-center py-4 gap-y-4">
+        <div className="md:hidden flex items-center justify-center py-4 gap-x-6">
+          <ThemeToggle mode={themeMode} onModeChange={setThemeMode} />
           <Link to="/keithfykai/" className="text-sm font-semibold text-decoration-none" onClick={closeMenu}>
             Home
           </Link>
-          {/* <Link to="/aboutme" className="text-sm font-semibold text-decoration-none" onClick={closeMenu}>
-            About Me
-          </Link>
-          <Link to="/projects" className="text-sm font-semibold text-decoration-none" onClick={closeMenu}>
+          <Link to="/keithfykai/projects" className="text-sm font-semibold text-decoration-none" onClick={closeMenu}>
             Projects
           </Link>
-          <Link to="/contactme" className="text-sm font-semibold text-decoration-none" onClick={closeMenu}>
-            Contact Me
-          </Link> */}
         </div>
       )}
     </header>

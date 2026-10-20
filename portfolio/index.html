@@ -2,6 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      // Restore the theme before styles load to avoid a flash on refresh.
+      try {
+        const mode = localStorage.getItem('portfolio-theme');
+        if (mode === 'light' || mode === 'dark') {
+          document.documentElement.dataset.theme = mode;
+        }
+      } catch {
+        // Keep following the device if browser storage is unavailable.
+      }
+    </script>
     <link rel="icon" href="/Eddy.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/src/index.css" rel="stylesheet">
